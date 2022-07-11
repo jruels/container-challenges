@@ -9,3 +9,4 @@ Instructor will provide slides
 
 ### Day 1 
 Lab 1: [Access Lab Environment](labs/lab-setup)   
+Lab 2: [Deploy EKS cluster and microservices](labs/deploy-eks)   
