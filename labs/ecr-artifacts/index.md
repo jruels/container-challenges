@@ -101,7 +101,7 @@ CMD ["/usr/local/bin/hello"]
 Run the `build` command, replacing {YOUR_ACCOUNT_ID}
 
 ```bash
-docker build -t {YOUR_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/eks-workshop:1.0
+docker build -t {YOUR_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/eks-workshop:1.0 .
 ```
 
 
@@ -186,8 +186,8 @@ Create a Helm repository
 
 ```bash
 aws ecr create-repository \
-    >      --repository-name helm-test-chart \
-    > --region ${AWS_REGION}
+    --repository-name helm-test-chart \
+    --region ${AWS_REGION}
 ```
 
 

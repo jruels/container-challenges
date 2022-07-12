@@ -193,7 +193,7 @@ wget https://raw.githubusercontent.com/aws-samples/eks-workshop/main/content/int
 
 Now that we have a simple hello world app, commit the changes to start the image build pipeline.
 
-**NOTE: User the Personal Access Token created earlier as the password when executing `git push`
+**NOTE: User the Personal Access Token created earlier as the password when executing `git push`**
 
 ```
 git add .
